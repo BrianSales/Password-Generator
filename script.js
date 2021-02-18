@@ -26,7 +26,9 @@ function generatePassword(){
     var specialCharacters= confirm("would you like special-characters '!@#$'");
 
 
-var uppercaseArray= [A,B,C
+var uppercaseArray= [
+    
+    "A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"
 
 ]
 var lowerCaseArray= [
@@ -38,12 +40,15 @@ var numbersArray= [
 ]
 
 var specialCharacters= [
-    !@#$%^&*()_+
+    "!","@","#","$","%","^","&","*","(",")","_","+"
 ]
 
 if (numbers) 
 
-emptyArray= []
+emptyArray= [
+
+    
+]
 }
 
 
