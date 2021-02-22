@@ -23,6 +23,9 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ### Usage  
     Able to generate a password between 8-128 characters
-    <img src="images\_C__Users_Brian_Desktop_Password_Password-Generator_index.html(Pixel 2 XL).png" width="190">
+<img src="images\_C__Users_Brian_Desktop_Password_Password-Generator_index.html(Pixel 2 XL).png" width="190">
+    
 
 #### Links
+[Github profile](https://github.com/BrianSales)
+[Deployed Webpage](https://briansales.github.io/Password-Generator/.)
