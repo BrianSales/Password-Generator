@@ -21,6 +21,8 @@ var passwordNotes = [];
 
 var passwordlength = [];
 
+
+
 //I choose to use queryselector syntax to help with page loadout and added an eventlistner so that the html loads first
 
 document.addEventListener("DOMContentLoaded",function(){
@@ -31,15 +33,17 @@ document.addEventListener("DOMContentLoaded",function(){
         console.log("i have been clicked")
 
     
- //User is prompted with a series of ok or cancel prompts to help determine password length   
+ //User is prompted with a series of ok or cancel prompts that must return true to help determine password length   
         var passwordlength = prompt("How long would you like your password 8-128 characters");
     console.log(length);
 
     if(passwordlength<8){
-        alert("Password must from 8-128 characters");
+        alert("Password must from 8-128 characters")
+        return true;
     } else if(passwordlength>128){
             
-        alert("Password must be less than 128 characters");
+        alert("Password must be less than 128 characters")
+        return true;
     };
 
 
@@ -79,7 +83,7 @@ document.addEventListener("DOMContentLoaded",function(){
     });
 
 
-//function used to gather all variables and assign a random output
+//function used to gather all variables and assign a random password output of all gathered variables
 function generatePassword(password){
     
     var passwordLoop = [];
